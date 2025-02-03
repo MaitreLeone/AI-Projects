@@ -1,0 +1,279 @@
+{
+  "tests": [
+    {
+      "test_number": 0,
+      "scientist": "Елена Смирнова",
+      "timestamp": "2024-11-02T14:18:58.453368",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 6.59,
+      "response": {
+        "name": "Елена Смирнова",
+        "occupation": "Ученый",
+        "skills": [
+          "исследования",
+          "анализ",
+          "публикации"
+        ],
+        "daysoflife": -1,
+        "dayofdeath": -1,
+        "age": -1
+      },
+      "raw_response": "{ \n\"name\": \"Елена Смирнова\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"исследования\", \"анализ\", \"публикации\"], \n\"daysoflife\": \n    -1 \n    \t\t\t\n \t, \n\"dayofdeath\": \n    -1 \n    \t\t\t\n \t, \n\"age\": \n    -1 \n    \t\t\t\n \t}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Анна Ковалёва",
+      "timestamp": "2024-11-02T14:19:06.833445",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 14.97,
+      "response": {
+        "name": "Анна Ковалёва",
+        "occupation": "Ученый",
+        "skills": [
+          "Исследования",
+          "Анализ",
+          "Публикации"
+        ],
+        "age": 35,
+        "dayofdeath": 0,
+        "daysoflife": 0
+      },
+      "raw_response": "{ \n\"name\": \"Анна Ковалёва\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"Исследования\", \"Анализ\", \"Публикации\"], \n\"age\": 35, \n\"dayofdeath\": 0, \n\"daysoflife\": 0 \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Ричард Фокс",
+      "timestamp": "2024-11-02T14:19:07.034202",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.17,
+      "response": {
+        "name": "Ричард Фокс",
+        "occupation": "Ученый",
+        "skills": [
+          "Математика",
+          "Физика"
+        ],
+        "daysoflife": 30,
+        "age": 35,
+        "dayofdeath": 15
+      },
+      "raw_response": "{ \n\"name\": \"Ричард Фокс\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"Математика\", \"Физика\"], \n\"daysoflife\": 30, \n\"age\": 35, \n\"dayofdeath\": 15 \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Джон Блэквуд",
+      "timestamp": "2024-11-02T14:19:07.186311",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.32,
+      "response": {
+        "name": "Джон Блэквуд",
+        "occupation": "математик",
+        "daysoflife": 1910,
+        "dayofdeath": 1987,
+        "age": 77,
+        "skills": [
+          "математика",
+          "алгебра",
+          "теория чисел"
+        ]
+      },
+      "raw_response": "{ \n\"name\": \"Джон Блэквуд\", \n\"occupation\": \"математик\", \n\"daysoflife\": 1910, \n\"dayofdeath\": 1987, \n\"age\": 77, \n\"skills\": [\"математика\", \"алгебра\", \"теория чисел\"] \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Майкл Стерн",
+      "timestamp": "2024-11-02T14:19:10.732826",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 3.54,
+      "response": {
+        "name": "Майкл Стерн",
+        "occupation": "Ученый",
+        "skills": [
+          "Экология",
+          "Биология",
+          "Устойчивое развитие"
+        ],
+        "daysoflife": 60,
+        "age": 55,
+        "dayofdeath": 0
+      },
+      "raw_response": "{ \n\"name\": \"Майкл Стерн\",\n\"occupation\": \"Ученый\",\n\"skills\": [\"Экология\", \"Биология\", \"Устойчивое развитие\"],\n\"daysoflife\": 60,\n\"age\": 55,\n\"dayofdeath\": 0\n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Марта Грей",
+      "timestamp": "2024-11-02T14:19:22.226348",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.04,
+      "response": {
+        "name": "Марта Грей",
+        "occupation": "Ученый",
+        "skills": [
+          "Математика",
+          "Физика"
+        ],
+        "daysoflife": 365,
+        "age": 60,
+        "dayofdeath": 0
+      },
+      "raw_response": "{ \n\"name\": \"Марта Грей\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"Математика\", \"Физика\"], \n\"daysoflife\": 365, \n\"age\": 60, \n\"dayofdeath\": 0 \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Сергей Волков",
+      "timestamp": "2024-11-02T14:19:22.270267",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.08,
+      "response": {
+        "name": "Сергей Волков",
+        "occupation": "Ученый",
+        "skills": [
+          "Математика",
+          "Физика"
+        ],
+        "daysoflife": 30,
+        "age": 40,
+        "dayofdeath": 15
+      },
+      "raw_response": "{ \n\"name\": \"Сергей Волков\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"Математика\", \"Физика\"], \n\"daysoflife\": 30, \n\"age\": 40, \n\"dayofdeath\": 15 \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Александр Белов",
+      "timestamp": "2024-11-02T14:19:22.383652",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.19,
+      "response": {
+        "name": "Александр Белов",
+        "occupation": "ученый",
+        "skills": [
+          "математика",
+          "физика"
+        ],
+        "daysoflife": 30,
+        "age": 35,
+        "dayofdeath": 0
+      },
+      "raw_response": "{ \n\"name\": \"Александр Белов\", \n\"occupation\": \"ученый\", \n\"skills\": [\"математика\", \"физика\"], \n\"daysoflife\": 30, \n\"age\": 35, \n\"dayofdeath\": 0 \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Мария Петрова",
+      "timestamp": "2024-11-02T14:19:25.969481",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 3.58,
+      "response": {
+        "name": "Мария Петрова",
+        "occupation": "Ученый",
+        "skills": [
+          "Исследователь",
+          "Аналитик",
+          "Эксперт"
+        ],
+        "age": 35,
+        "dayofdeath": 0,
+        "daysoflife": 0
+      },
+      "raw_response": "{ \n\"name\": \"Мария Петрова\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"Исследователь\", \"Аналитик\", \"Эксперт\"], \n\"age\": 35, \n\"dayofdeath\": 0, \n\"daysoflife\": 0 \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Дмитрий Соколов",
+      "timestamp": "2024-11-02T14:19:37.909798",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.52,
+      "response": {
+        "name": "Дмитрий Соколов",
+        "occupation": "Ученый",
+        "skills": [
+          "Математика",
+          "Физика"
+        ],
+        "daysoflife": 30,
+        "age": 35,
+        "dayofdeath": 15
+      },
+      "raw_response": "{ \n\"name\": \"Дмитрий Соколов\",\n\"occupation\": \"Ученый\",\n\"skills\": [\"Математика\", \"Физика\"],\n\"daysoflife\": 30,\n\"age\": 35,\n\"dayofdeath\": 15\n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Ханс Вебер",
+      "timestamp": "2024-11-02T14:19:38.321014",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.93,
+      "response": {
+        "name": "Ханс Вебер",
+        "occupation": "немецкий социолог и экономист",
+        "dayofdeath": 1920,
+        "daysoflife": 1864,
+        "age": 56,
+        "skills": [
+          "социология",
+          "экономика"
+        ]
+      },
+      "raw_response": "{ \n\"name\": \"Ханс Вебер\", \n\"occupation\": \"немецкий социолог и экономист\", \n\"dayofdeath\": 1920, \n\"daysoflife\": 1864, \n\"age\": 56, \n\"skills\": [\"социология\", \"экономика\"] \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Сара Миллер",
+      "timestamp": "2024-11-02T14:19:38.364682",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 15.98,
+      "response": {
+        "name": "Сара Миллер",
+        "occupation": "Ученый",
+        "skills": [
+          "Математика",
+          "Физика",
+          "Навигация"
+        ],
+        "daysoflife": 30,
+        "age": 35,
+        "dayofdeath": 0
+      },
+      "raw_response": "{ \n\"name\": \"Сара Миллер\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"Математика\", \"Физика\", \"Навигация\"], \n\"daysoflife\": 30, \n\"age\": 35, \n\"dayofdeath\": 0 \n}"
+    },
+    {
+      "test_number": 0,
+      "scientist": "Джеймс Хоторн",
+      "timestamp": "2024-11-02T14:19:44.395235",
+      "success": false,
+      "error": "Поле 'dayofdeath' должно быть типа str, получено int",
+      "generation_time": 6.03,
+      "response": {
+        "name": "Джеймс Хоторн",
+        "occupation": "Ученый",
+        "skills": [
+          "Математика",
+          "Физика"
+        ],
+        "age": 35,
+        "dayofdeath": 0,
+        "daysoflife": 0
+      },
+      "raw_response": "{ \n\"name\": \"Джеймс Хоторн\", \n\"occupation\": \"Ученый\", \n\"skills\": [\"Математика\", \"Физика\"], \n\"age\": 35, \n\"dayofdeath\": 0, \n\"daysoflife\": 0 \n}"
+    }
+  ],
+  "summary": {
+    "total": 13,
+    "success": 0,
+    "failed": 13,
+    "total_generation_time": 157.95566177368164,
+    "average_generation_time": 12.15,
+    "start_time": "2024-11-02T14:18:51.859807",
+    "end_time": "2024-11-02T14:19:44.395317"
+  }
+}

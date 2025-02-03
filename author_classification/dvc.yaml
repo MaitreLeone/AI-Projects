@@ -1,0 +1,69 @@
+stages:
+  validation:
+    cmd: python src/validate.py
+    deps:
+    - config
+    - data
+    - src/validate.py
+  preprocess:
+    cmd: python src/read_authors.py
+    deps:
+    - data
+    - src/read_authors.py
+    outs:
+    - ready_datasets
+  merge:
+    cmd: python src/all_authors.py
+    deps:
+    - config
+    - ready_datasets
+    - src/all_authors.py
+    outs:
+    - train_test
+  train:
+    cmd: python src/bert_train_author_classification_18_authors.py
+    deps:
+    - config
+    - train_test
+    - src/bert_train_author_classification_18_authors.py
+    params:
+    - dvclive/params.yaml:
+params:
+- dvclive/params.yaml
+metrics:
+- dvclive/metrics.json
+plots:
+- F1:
+    template: linear
+    title: F1-мера
+    x: step
+    x_label: step
+    y:
+      dvclive/plots/metrics/eval_f1_mean.tsv: f1_mean
+    y_label: F1-мера
+- Accuracy:
+    template: linear
+    title: Правильность
+    x: step
+    x_label: step
+    y:
+      dvclive/plots/metrics/accuracy.tsv: accuracy
+    y_label: Правильность
+- Precision:
+    template: linear
+    title: Точность
+    x: step
+    x_label: step
+    y:
+      dvclive/plots/metrics/precision_mean.tsv: precision_mean
+    y_label: Точность
+- Recall:
+    template: linear
+    title: Полнота
+    x: step
+    x_label: step
+    y:
+      dvclive/plots/metrics/recall_mean.tsv: recall_mean
+    y_label: Полнота
+- dvclive/plots/metrics:
+    x: step

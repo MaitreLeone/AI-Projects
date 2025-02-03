@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Авторский датасет",
+        "description": "Датасет содержит тексты авторов на русском, английском, французском, испанском, немецком, украинском, турецком и арабском языках.",
+        "files": [
+        "./src/data/Abel_Fernández.json",
+        "./src/data/Akın_Aydın.json",
+        "./src/data/Gerhard_Wirth.json",
+        "./src/data/H16.json",
+        "./src/data/Jean-Luc_Mélenchon.json",
+        "./src/data/José_García_Domínguez.json",
+        "./src/data/Markos_Moulitsas.json",
+        "./src/data/Markus_Beckedahl.json",
+        "./src/data/Oral_Çalışlar.json",
+        "./src/data/Rod_Dreher.json",
+        "./src/data/Александр_Проханов.json",
+        "./src/data/Артемий_Лебедев.json",
+        "./src/data/Данило_Гетманцев.json",
+        "./src/data/Дмитрий_Пучков.json",
+        "./src/data/Сергій_Стерненко.json",
+        "./src/data/Старославянский.json",
+        "./src/data/علي_الصلابي.json",
+        "./src/data/محمود_عبد_الهادي.json"
+        ]
+    }
+]
